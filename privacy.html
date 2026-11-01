@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MindXory Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700&display=swap">
+<style>
+  /* Layout: one centred reading column on a parchment ground, a dark-jade masthead band, a gold-ruled summary card. */
+  :root {
+    --ground: #F3EAD3;
+    --paper: #FBF6E9;
+    --ink: #2E2414;
+    --muted: #6B5B3E;
+    --gold: #A97A22;
+    --jade: #1F4D3A;
+    --jade-ink: #F6E7BF;
+    --rule: #D9C59A;
+    --display: "Cinzel", "Trajan Pro", Georgia, serif;
+    --body: "Nunito Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #15130E; --paper: #1E1B14; --ink: #EDE3CC; --muted: #B5A27E;
+      --gold: #D9AE55; --jade: #163A2C; --jade-ink: #F1DFB0; --rule: #3B3324;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #15130E; --paper: #1E1B14; --ink: #EDE3CC; --muted: #B5A27E;
+    --gold: #D9AE55; --jade: #163A2C; --jade-ink: #F1DFB0; --rule: #3B3324;
+    color-scheme: dark;
+  }
+
+  body { background: var(--ground); color: var(--ink); font-family: var(--body); font-size: 17px; line-height: 1.65; }
+
+  .mast { background: var(--jade); color: var(--jade-ink); border-bottom: 3px solid var(--gold); }
+  .mast-inner, main, footer {
+    max-width: 44rem; margin: 0 auto;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+  .mast-inner { padding-block: 2.6rem 2.2rem; display: grid; gap: .4rem; }
+  .eyebrow { font-size: .78rem; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); font-weight: 700; }
+  h1 { font-family: var(--display); font-weight: 700; font-size: clamp(1.9rem, 6vw, 2.7rem); line-height: 1.15; margin: 0; text-wrap: balance; }
+  .meta { color: color-mix(in srgb, var(--jade-ink) 75%, transparent); font-size: .95rem; margin: 0; }
+
+  main { padding-block: 2.2rem 1rem; display: grid; gap: 2.2rem; }
+  .summary { background: var(--paper); border: 1px solid var(--rule); border-top: 3px solid var(--gold); border-radius: 10px; padding: 1.3rem 1.5rem; }
+  .summary h2 { margin-top: 0; }
+  section { display: grid; gap: .2rem; }
+  h2 { font-family: var(--display); font-weight: 600; font-size: 1.25rem; letter-spacing: .02em; color: var(--gold); margin: 0 0 .4rem; text-wrap: balance; }
+  p, ul { margin: 0 0 .7rem; max-width: 65ch; }
+  ul { padding-left: 1.2rem; display: grid; gap: .35rem; }
+  li::marker { color: var(--gold); }
+  a { color: var(--gold); text-underline-offset: 3px; word-break: break-word; }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; border-radius: 3px; }
+  .path { font-weight: 600; white-space: nowrap; }
+
+  .contact { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem; }
+  .email { font-weight: 700; font-size: 1.1rem; user-select: all; }
+  button.copy { font: inherit; font-size: .85rem; font-weight: 700; color: var(--jade-ink); background: var(--jade); border: 1px solid var(--gold); border-radius: 999px; padding: .3rem .9rem; cursor: pointer; }
+  button.copy:hover { filter: brightness(1.12); }
+
+  footer { padding-block: 1.5rem 2.5rem; color: var(--muted); font-size: .88rem; border-top: 1px solid var(--rule); margin-top: 1rem; }
+</style>
+</head><body>
+<header class="mast">
+  <div class="mast-inner">
+    <span class="eyebrow">MindXory · memory card game</span>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Effective date: November 1, 2026</p>
+  </div>
+</header>
+
+<main>
+  <p>This privacy policy explains how the <strong>MindXory</strong> mobile game ("the App"), made by Ferdy ("we", "us"), handles information. The App is free and is offered "as is".</p>
+
+  <div class="summary">
+    <h2>In short</h2>
+    <ul>
+      <li>You don't need an account. We never ask for your email, phone number or real name.</li>
+      <li>Your progress, coins, player name, avatar and settings are stored <strong>only on your device</strong>. We don't send them to any server, and we don't run servers for the App.</li>
+      <li>The App may show ads from <strong>Google AdMob</strong>, which may collect device information as described below.</li>
+      <li>We do not sell your personal information.</li>
+    </ul>
+  </div>
+
+  <section>
+    <h2>Information stored on your device</h2>
+    <p>The App saves the following locally so the game works:</p>
+    <ul>
+      <li>Game progress (levels, stars, best scores), coins, hints and in-game items such as card skins</li>
+      <li>The player name and avatar you choose</li>
+      <li>Settings (music, sound, vibration)</li>
+      <li>Daily reward and daily competition status</li>
+    </ul>
+    <p>This data never leaves your device through the App. Deleting the App deletes it.</p>
+    <p><strong>Daily Competition:</strong> the leaderboard is generated on your device, and the other players in it are computer-generated. Your name and score are not uploaded or shown to anyone else.</p>
+  </section>
+
+  <section>
+    <h2>Advertising (Google AdMob)</h2>
+    <p>The App may show ads served by Google AdMob. To show and measure ads, AdMob may automatically collect:</p>
+    <ul>
+      <li>Your IP address, device type, operating system and App version</li>
+      <li>An advertising identifier (on iOS, the IDFA, only if you allow tracking in Apple's App Tracking Transparency prompt)</li>
+      <li>How you interact with ads, and diagnostic data</li>
+    </ul>
+    <p>If you are in the European Economic Area, the UK or Switzerland, we ask for your consent before personalized ads are shown, using Google's consent form. You can choose non-personalized ads and change your choice at any time in the App.</p>
+    <p>On iOS you can turn off tracking in <span class="path">Settings › Privacy &amp; Security › Tracking</span>. On Android you can reset or delete your advertising ID in your device settings.</p>
+    <p>Google describes its use of this information in its <a href="https://policies.google.com/privacy" rel="noopener">Privacy Policy</a> and in <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">How Google uses information from sites or apps that use its services</a>.</p>
+  </section>
+
+  <section>
+    <h2>What we don't collect</h2>
+    <ul>
+      <li>No account, email, phone number or contacts</li>
+      <li>No precise location</li>
+      <li>No access to photos, camera or microphone</li>
+      <li>No analytics or tracking tools apart from the advertising described above</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Sharing</h2>
+    <p>The App's Share button opens your device's standard share sheet. Nothing is sent unless you pick an app and send the message yourself.</p>
+    <p>We do not sell or rent personal information. We may disclose information if the law requires it.</p>
+  </section>
+
+  <section>
+    <h2>Children</h2>
+    <p>MindXory is a general-audience game and is not directed at children under 13 (or the minimum age in your country). We do not knowingly collect personal information from children. If you believe a child has given us personal information, contact us and we will help remove it.</p>
+  </section>
+
+  <section>
+    <h2>Keeping and deleting data</h2>
+    <p>Game data stays on your device until you delete the App. Because we don't store your data on servers, there is nothing to delete on our side. For data collected by Google AdMob, see Google's privacy policy and the device settings above.</p>
+  </section>
+
+  <section>
+    <h2>Your rights</h2>
+    <p>Depending on where you live (for example under the GDPR), you may have the right to access, correct or delete your personal data, or to object to how it is processed. Contact us with any request and we will reply within 30 days.</p>
+  </section>
+
+  <section>
+    <h2>Security</h2>
+    <p>Your data stays on your device and is protected by the device's own security. No storage method is completely secure, so we keep the data we handle to a minimum.</p>
+  </section>
+
+  <section>
+    <h2>Changes to this policy</h2>
+    <p>We may update this policy from time to time. Changes will be posted on this page with a new effective date.</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Questions about this policy or the App:</p>
+    <div class="contact">
+      <span class="email" id="email">support.memory@gmail.com</span>
+      <button class="copy" id="copyBtn" type="button">Copy address</button>
+    </div>
+  </section>
+</main>
+
+<footer><a href="./">MindXory home</a> · © 2026 MindXory · Made by Ferdy</footer>
+
+<script>
+  const btn = document.getElementById('copyBtn');
+  btn.addEventListener('click', () => {
+    const text = document.getElementById('email').textContent.trim();
+    const done = () => { btn.textContent = 'Copied'; setTimeout(() => btn.textContent = 'Copy address', 1800); };
+    const fallback = () => {
+      const r = document.createRange(); r.selectNodeContents(document.getElementById('email'));
+      const s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+      btn.textContent = 'Selected, press copy';
+    };
+    try { navigator.clipboard.writeText(text).then(done, fallback); } catch (e) { fallback(); }
+  });
+</script>
+</body></html>
